@@ -20,10 +20,10 @@ def main():
     amount, code = verify_input(val_simplified)
 
     # convert user input
-    convert_to_euros(amount, code)
+    val_converted = convert_to_euros(amount, code)
 
     # print out Euro value
-    #print(f"{val_converted:.2f} EUR")
+    print(f"{val_converted:.2f} EUR")
 
     
 
