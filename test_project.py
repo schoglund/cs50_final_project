@@ -1,9 +1,6 @@
 from project import get_accepted_currencies, simplify, verify_input, get_code, convert_to_euros
 import pytest
 
-def test_get_accepted_currencies():
-    ...
-
 def test_simplify():
     assert simplify("12.34 USD") == "12.34USD"
     assert simplify("50,000CAN") == "50000CAN"
